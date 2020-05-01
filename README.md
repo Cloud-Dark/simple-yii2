@@ -58,3 +58,36 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
+
+# Yii2 - Simple App
+
+kali ini saya ingin membagikan aplikasi sederhana dari yii2 yang sudah di modifikasi
+
+
+# V1 - Feature
+
+ 1. Admin page ([http://localhost/simple-yii2/admin](http://localhost/simple-yii2/admin) )
+ 2. Front end page (http://localhost/simple-yii2/)
+ 3. Management User
+ 4. Management Booking
+ 5. Management pegawai
+ 6.  **Offline!**
+ 7. Tidak Perlu Install kembali. hanya taruh di localhost, atur database, selesai
+
+
+
+## Database Setting
+
+anda hanya perlu pergi ke /common/config/main-local.php
+
+            'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=yii2-simpleapp',
+            'username' => 'root',
+            'password' => '1',
+            'charset' => 'utf8',
+	        ],
+
+## Selesai
+
+web siap digunakan
